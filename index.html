@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AntiqueStore</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+     <header class="bg-[#ffffff] text-black h-14 flex ">
+        <nav class="flex items-center justify-between w-[90%] mx-auto">
+            <a href="#" class="text-xl">Antique<span class="text-orange-500">Store</span></a>
+            <input class="peer hidden" type="checkbox" id="navbar-open">
+            <div class="peer-checked:block md:flex hidden  absolute md:static bg-white md:min-h-full min-h-[80vh] text-black left-0 top-[9%] md:w-auto w-full flex justify-center items-center">
+                <ul class="flex md:flex-row flex-col items-center justify-between md:gap-5 gap-8">
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">Home</a></li>
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">About</a></li>
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">Contact</a></li>
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">Blog</a></li>
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">Login</a></li>
+                    <li><a class="text-lg font-normal hover:text-orange-500" href="#">Sign Up</a></li>
+                </ul>
+                
+            </div>
+            <div class="flex items-center gap-5">
+                <i class="fa-solid fa-magnifying-glass w-5"></i>
+                <label class="cursor-pointer" for="navbar-open">
+                    <i class="fa-solid fa-bars cursor-pointer  md:hidden"></i>
+                </label>
+            </div>
+            
+        </nav>
+     </header>
+    <!-- navbar end -->
+    <!-- hero section -->
+     <section>
+        <div class="hero grid text-center py-8 md:grid-cols-2 md:h-screen  md:text-left md:pl-28 md:">
+            <div class="hero-text md:my-auto">
+                <h6 class="py-2">Antique<span class=" text-orange-500">Store</span></h6>
+                <h1 class="text-5xl leading-[4rem] font-bold sm:text-4xl md:text-7xl md:leading-[6rem]">Famous Antique <br><span  class="bg-orange-500 text-white">Collection</span>Point </h1>
+                <p class="py-8">A true antique is an item precieved as having value because of
+                    <br> its aesthetic or historical significance, and oftend defined as at
+                    <br> least 100 years old, although the term.</p>
+                <a class="bg-[#000000] text-white py-2 px-4 hover:bg-[#334155] inline-block" href="#">Explore More</a>
+            </div>
+            <div class="hero-img place-items-center mx-auto md:my-auto">
+                <img class="max-w-40 md:max-w-6xl my-6" src="./images/bg-img.png" alt="antique phone background image">
+            </div>
+        </div>
+     </section>
+    <!-- hero section end -->
+    <!-- section 1 -->
+
+     <section id="section-1" class="py-5">
+        <div class="flex flex-col items-center text-center px-4">
+            <img class="md:w-[60%]" src="./images/cam1.png" alt="">
+            <br>
+            <span class="md:text-4xl text-xl font-semibold">A antique oftend defined as at least 100 years <br> old, although the term is also used loosely to <br> describe any object that is old.</span>
+        </div>
+     </section>
+    <!-- section 1 end -->
+    <!-- section 2 -->
+     <section class="section-2 py-8 my-16">
+        <div class="container w-4/5 grid grid-cols-1 md:grid-cols-2 m-auto">
+            <div class="flex place-items-center">
+                <img class="w-[60%] mx-auto"  data-aos="fade-right" src="./images/pr1.png" alt="">
+            </div>
+            <div class="text-center md:text-left md:my-auto px-5"  >
+                <h3 class="text-2xl font-bold md:text-4xl mb-2">Antique are Valuable</h3>
+                <p class="px-5 text-justify md:px-0 md:text-left leading-[1.5rem] mb-2">A relic or object of anicient times.2a : a work of art, piece of furniture or decorative item made at an earlier period and according to various customs laws at least 100 years ago.b: a manufactured product ( such as an automobile) from an earlier period, antique.</p>
+                <a class="bg-[#000000] text-white mt-2 py-2 px-4 hover:bg-[#334155] inline-block" href="#">READ MORE</a>
+            </div>
+        </div>
+     </section>
+    <!-- section 2 end -->
+    <!-- section 3 -->
+     <section id="section-3 py-8 my-16">
+        <div class="container w-4/5 grid grid-cols-1 md:grid-cols-2 mx-auto">
+            
+            <div class="text-center md:text-left md:my-auto px-5 order-1"  >
+                <h3 class="text-2xl font-bold md:text-4xl mb-2">Antique are Valuable</h3>
+                <p class="px-5 text-justify md:px-0 md:text-left leading-[1.5rem] mb-2">A relic or object of ancient times.2a : a work of art, piece of furniture or decorative item made at an earlier period and according to various customs laws at least 100 years ago.b: a manufactured product ( such as an automobile) from an earlier period, antique.</p>
+                <a class="bg-[#000000] text-white mt-2 py-2 px-4 hover:bg-[#334155] inline-block" href="#">READ MORE</a>
+            </div>
+            <div class="flex place-items-center md:order-2">
+                <img class="w-[60%] mx-auto " data-aos="fade-left" src="./images/ph1.png" alt="">
+            </div>
+        </div>
+     </section>
+    <!-- section 3 end -->
+    <!-- section 4 -->
+     <section id="section-4">
+        <!-- <h3>What Customers Say</h3> -->
+        <div class="container">
+            <div>
+            </div>
+        </div>
+     </section>
+    <!-- section 4 end -->
+     <!-- ṇews letter section  -->
+      <section id="newsletter" class="py-5 my-6">
+        <div class="container w-4/5 mx-auto grid md:grid-cols-2">
+            <div>
+                <img  data-aos="fade-right" src="./images/cam2.png" alt="">
+            </div>
+            <div class="flex flex-col justify-center text-center">
+                <h3 class="text-2xl font-bold md:text-4xl mb-5">Our Newsletter</h3>
+               
+                
+                    <div class="container flex justify-center items-center">
+                        <div class="relative"> 
+                          <input type="email" class="h-14  pl-10 pr-20 rounded-lg z-0 focus:shadow focus:outline-none" placeholder="Email address">
+                            <div class="absolute top-2 right-2">
+                                
+                                <button class="h-10 w-10 text-white rounded-lg bg-orange-500 hover:bg-slate-950"><i class="fa-solid fa-arrow-right"></i></button>
+                                
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+      </section>
+      <!-- news letter ends -->
+       <footer class="bg-orange-500 py-8">
+        <div class="container text-center flex justify-center flex-col items-center">
+            <a href="#" class="text-xl mb-5">Antique<span class="text-white">Store</span></a>
+            <div class="icons w-[5rem] items-center flex justify-between">
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook"></i>
+            </div>
+            <span class="my-5">STAY UP TO DATE</span>
+            <div class="container flex justify-center items-center mb-5">
+                <div class="relative"> 
+                  <input type="email" class="h-14  pl-10 pr-20 rounded-lg z-0 focus:shadow focus:outline-none" placeholder="Email address">
+                    <div class="absolute top-2 right-2">
+                        
+                        <button class="h-10 w-10 text-white rounded-lg  bg-slate-950 hover:bg-orange-500"><i class="fa-solid fa-arrow-right"></i></button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+       </footer>
+</body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
